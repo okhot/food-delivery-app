@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import Hero from './components/HeroSection/heroSection';
-import Navbar from './components/NavBar';
-import { BrowserRouter as Router} from 'react-router-dom';
-import logo from '/home/mandela/projects/food-delivery-app/src/assets/logo.png';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import NavBar from './components/pages/NavBar';
+
 
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Hero />
-    </Router>
+  return (     
+  <Router>
+    <NavBar /> 
+  </Router>
   );
 }
 
