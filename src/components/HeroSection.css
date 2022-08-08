@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+
+.HeroSection{
+    height: 600px;
+   background-image: url(/src/images/image1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-bottom: 1px solid black;
+}
+.HeroSection h3{
+    text-align: center;
+    top: 15vh;
+    position: absolute;
+    left: 95vh;
+    color: aliceblue;
+}
+.HeroSection h1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 20vh;
+    left: 45vh;
+    font-size: 4.5rem;
+    }
+
+.HeroSection p{
+ text-align: center;
+ position: absolute;
+ top: 45vh;
+ left: 80vh;
+ font-size: 1rem;
+ color: white;
+}
+
+.mobile1 {
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: -70%;
+}
+

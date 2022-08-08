@@ -9,7 +9,7 @@ function NavBar () {
       
              <nav className="nav__bar">
 
-         <img src={require('./../../images/image2.jpg')}/>
+         <img src={require('./../../images/image2.jpg')} alt="logo"/>
             <Link to='/' className="nav__bar-link">Home</Link>
             <Link to='product' className="nav__bar-link">Products</Link>
             <Link to='/faq' className="nav__bar-link">Faq</Link>
