@@ -1,8 +1,11 @@
+
+
 .nav__bar
 {
+    font-family: poppins;
     display: flex;
     justify-content: flex-end;
-    padding: 20px 30px;
+    padding: 15px 20px;
     margin-right: 40px;
 }
 
