@@ -1,0 +1,41 @@
+
+.instructions h2{
+    align-items: center;
+
+}
+
+.inst-card{
+    margin-top: 30%;
+    margin-left: 10px;
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.instructions1__text.reverse{
+    flex-direction: row-reverse;
+}
+
+.inst-card__text h3{
+    font-size: 24px;
+    font-family: montserrat;
+    color: #FA4A0C;
+    text-align: left;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.1rem;
+}
+
+.instructions1__text h2{
+    font-size: 25px;
+    font-family: montserrat;
+    padding: 0rem;
+}
+
+.instructions1__text{
+    text-indent: initial;
+    margin: 20px;
+    width: 550px;
+}
