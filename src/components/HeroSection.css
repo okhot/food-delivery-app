@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
 
+.margin{
+  border-bottom: 1px solid black;;
+}
+
 .HeroSection{
     height: 600px;
    background-image: url(/src/images/image1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   border-bottom: 1px solid black;
 }
 .HeroSection h3{
     text-align: center;
@@ -38,3 +41,6 @@
     margin-bottom: -70%;
 }
 
+.HeroSection__phones{
+    margin-bottom: 20px solid black;
+}
